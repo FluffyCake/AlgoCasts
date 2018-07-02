@@ -15,18 +15,7 @@ function chunk(array, size) {
     for (let i = 0; i < array.length; i = i + size) {
         chunks.push(array.slice(i, i + size));
     }
-
     return chunks;
-
-    // const chunked = [];
-    // let index = 0;
-    //
-    // while (index < array.length) {
-    //     chunked.push(array.slice(index, index + size));
-    //     index += size;
-    // }
-    //
-    // return chunked;
 
 }
 
